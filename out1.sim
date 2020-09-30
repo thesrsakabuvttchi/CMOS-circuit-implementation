@@ -1,0 +1,12 @@
+p C Vdd n1 2 4
+p B Vdd n1 2 4
+n C Gnd n2 2 4
+n B n2 n1 2 4
+p n1 Vdd n3 2 4
+n n1 n3 Gnd 2 4
+p n3 Vdd n4 2 4
+p A Vdd n4 2 4
+n n3 Gnd n5 2 4
+n A n5 n4 2 4
+p n4 Vdd out 2 4
+n n4 out Gnd 2 4
